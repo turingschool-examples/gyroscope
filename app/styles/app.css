@@ -1,0 +1,24 @@
+.my-playground {
+  position: relative;;
+  height: 50px;
+  width: 50px;
+  /*border: 1px solid black;*/
+  margin: auto;
+}
+
+#mybox {
+  top: 10px;
+  left: 10px;
+  background-color: green;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+}
+
+#target {
+  height: 50px;
+  width: 50px;
+  border: 5px solid black;
+  background-color: red;
+  margin: 3rem auto;
+}

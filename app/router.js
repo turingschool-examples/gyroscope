@@ -7,6 +7,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('demos', function() {
+    this.route('gyroscope');
+  });
 });
 
 export default Router;
